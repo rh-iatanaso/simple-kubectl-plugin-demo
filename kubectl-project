@@ -1,2 +1,2 @@
 #!/bin/sh
-oc project $@
+oc projects 
