@@ -11,7 +11,7 @@ source ./demo-magic.sh
 
 clear
 
-echo_wrapped "We can use kubectl instead of oc ?"
+echo_wrapped "Can we use kubectl instead of oc ?"
 wait 
 
 pei "kubectl projects"
@@ -22,6 +22,7 @@ wait
 pei "echo '#!/bin/sh' >> ~/bin/$PLUG"
 pei "echo 'oc projects' >> ~/bin/$PLUG"
 echo ""
+wait
 pei "chmod +x ~/bin/$PLUG"
 echo ""
 pei "cat ~/bin/$PLUG"
